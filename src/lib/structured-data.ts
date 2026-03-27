@@ -7,7 +7,7 @@ export function generateOrganizationSchema() {
     "@type": "Organization",
     name: siteConfig.name,
     url: siteConfig.url,
-    logo: `${siteConfig.url}/images/logos/logo-full.svg`,
+    logo: `${siteConfig.url}/images/logos/logo-transparent.png`,
     description: siteConfig.description,
     telephone: siteConfig.phone,
     email: siteConfig.email,

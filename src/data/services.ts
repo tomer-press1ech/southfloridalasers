@@ -16,7 +16,7 @@ export const services: Service[] = [
       "Photo-realistic image engraving capability",
       "Rotary attachment for cylindrical objects",
     ],
-    image: "/images/hero/laser-hero.webp",
+    image: "",
   },
   {
     id: "laser-cutting",
@@ -33,7 +33,7 @@ export const services: Service[] = [
       "Minimal kerf width for material efficiency",
       "Automated nesting for optimal material usage",
     ],
-    image: "/images/hero/laser-hero.webp",
+    image: "",
   },
   {
     id: "custom-solutions",
@@ -50,7 +50,7 @@ export const services: Service[] = [
       "Scalable solutions that grow with your business",
       "Turnkey installation and training",
     ],
-    image: "/images/hero/laser-hero.webp",
+    image: "",
   },
   {
     id: "maintenance-support",
@@ -67,6 +67,6 @@ export const services: Service[] = [
       "On-site repair and calibration",
       "Extended warranty options",
     ],
-    image: "/images/hero/laser-hero.webp",
+    image: "",
   },
 ];

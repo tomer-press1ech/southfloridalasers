@@ -142,7 +142,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
               <Button href="/contact" variant="primary" size="lg">
                 Request a Quote
               </Button>
-              <Button href="tel:+19545552527" variant="outline" size="lg">
+              <Button href="tel:+17868591930" variant="outline" size="lg">
                 Call Us
               </Button>
             </div>

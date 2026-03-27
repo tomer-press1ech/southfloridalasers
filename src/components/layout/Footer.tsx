@@ -78,7 +78,7 @@ export function Footer() {
                 />
               </Link>
               <p className="mt-4 text-sm text-text-secondary max-w-sm leading-relaxed">
-                South Florida&apos;s premier supplier of professional laser engraving and cutting equipment. Empowering businesses with precision technology.
+                Authorized Trotec laser dealer in South Florida. Professional laser engraving and cutting equipment for businesses and creators in Miami and beyond.
               </p>
               <div className="mt-6 flex gap-4">
                 {Object.entries(siteConfig.socialLinks).map(
@@ -155,13 +155,8 @@ export function Footer() {
           <p className="text-xs text-text-muted">
             &copy; {new Date().getFullYear()} South Florida Lasers. All rights reserved.
           </p>
-          <div className="flex gap-6 text-xs text-text-muted">
-            <Link href="/contact" className="hover:text-text-secondary transition-colors">
-              Privacy Policy
-            </Link>
-            <Link href="/contact" className="hover:text-text-secondary transition-colors">
-              Terms of Service
-            </Link>
+          <div className="text-xs text-text-muted">
+            Authorized Trotec Dealer
           </div>
         </div>
       </Container>

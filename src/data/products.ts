@@ -419,7 +419,7 @@ export const products: Product[] = [
     },
   },
   {
-    id: "10",
+    id: "12",
     slug: "trotec-rotary-attachment",
     name: "Trotec Rotary Attachment",
     shortDescription:

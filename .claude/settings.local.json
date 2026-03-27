@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --yes)",
+      "Bash(npx create-next-app@latest temp-init --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --yes)",
+      "Bash(cp -r temp-init/* .)",
+      "Bash(cp -r temp-init/.* .)",
+      "Bash(rm -rf temp-init)",
+      "Bash(cd:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "Bash(taskkill /F /PID 5644)",
+      "Bash(taskkill /F /PID 14480)",
+      "Bash(taskkill //F //IM node.exe)",
+      "Bash(rm -rf .next)",
+      "Bash(curl -s -o /dev/null -w \"Port 3000: %{http_code}\\\\n\" http://localhost:3000)",
+      "Bash(curl -s -o /dev/null -w \"Port 3001: %{http_code}\\\\n\" http://localhost:3001)",
+      "Bash(curl -s -o /dev/null -w \"Port 3002: %{http_code}\\\\n\" http://localhost:3002)",
+      "Bash(grep -A2 '\"\"id\"\": \"\"10\"\"' src/data/products.ts)"
+    ]
+  }
+}
