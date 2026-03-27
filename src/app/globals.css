@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Dark base — matches logo background exactly */
+  --color-background: #0c0a18;
+  --color-surface: #110f20;
+  --color-surface-elevated: #19162b;
+  --color-surface-hover: #211d38;
+  --color-border: #2a2448;
+  --color-border-light: #38305c;
+
+  /* Text */
+  --color-text-primary: #f0e8ff;
+  --color-text-secondary: #b8a8d4;
+  --color-text-muted: #7a6a9a;
+
+  /* Neon Cyan (from logo text glow) */
+  --color-laser-blue: #00e5ff;
+  --color-laser-blue-dim: #00b8d4;
+  --color-laser-blue-glow: #00e5ff40;
+
+  /* Hot Pink / Magenta (from logo palm trees & arc) */
+  --color-spark-orange: #ff2d78;
+  --color-spark-orange-dim: #d4205f;
+  --color-spark-orange-glow: #ff2d7840;
+
+  /* Warm Sunset (from logo sun) */
+  --color-neon-yellow: #ffde00;
+  --color-sunset-orange: #ff8c00;
+
+  /* Purple glow (from logo background) */
+  --color-neon-purple: #b44dff;
+  --color-neon-purple-glow: #b44dff40;
+
+  /* Status */
+  --color-success: #22c55e;
+  --color-error: #ef4444;
+  --color-warning: #f59e0b;
+
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: #ff2d7830;
+  color: #f0e8ff;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0c0a18;
+}
+::-webkit-scrollbar-thumb {
+  background: #3e3565;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #5a4f82;
+}
