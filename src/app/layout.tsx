@@ -27,6 +27,10 @@ export const metadata: Metadata = {
     "laser equipment",
     "Trotec dealer",
   ],
+  icons: {
+    icon: "/favicon.png",
+    apple: "/apple-touch-icon.png",
+  },
   metadataBase: new URL("https://southfloridalasers.com"),
   openGraph: {
     type: "website",
